@@ -5,6 +5,51 @@
 }
 
 body {
-  background-color: lightblue;
+  background-image: url(/images/3.jpg?2b56950def47eeb23e4bd1f0a54a789e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin: 0 30px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header ul li {
+  padding-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+main h2 {
+  font-size: 30px;
+  color: #cbc099;
+  margin-left: 10px;
+}
+
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .container .card {
+  margin: 10px;
+  padding: 10px;
+}
+
+main .container .card img {
+  width: 340px;
 }
 

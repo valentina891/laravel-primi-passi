@@ -1,15 +1,13 @@
 header {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    color: #002d75;
     ul {
         display: flex;
-        justify-content: space-around;
         list-style: none;
         li {
-            padding-right: 20px;
+            margin: 20px;
             a {
                 text-decoration: none;
             }

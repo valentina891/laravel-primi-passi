@@ -1,19 +1,34 @@
-main {
+.main-home {
+    img {
+        width: 98.5vw;
+        @include bcg-img-cover;
+    }
+}
+
+.main-prodotti {
+    background-image: url('https://www.multicash.it/pub/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/1/0/1010300_1524000385_la_molisana_pasta_trafilata_al_bronzo_n20b_penne_ziti_rigate_1_kg.jpg');
+    @include bcg-img-contain;
+	background-position-x: 380px;
+
     h2 {
         font-size: 30px;
-        color: #cbc099;
-        margin-left: 10px;
+        color: #b2282f;
+        text-transform: uppercase;
+        padding-top: 10px;
     }
+    .cards {
+        margin: 0 50px;
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        .card {
-            margin: 10px;
-            padding: 10px;
-            img {
-                width: 340px;
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            .card {
+                padding: 20px 10px;
+                img {
+                    width: 340px;
+                    border-radius: 5px;
+                }
             }
         }
     }

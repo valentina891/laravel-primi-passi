@@ -5,51 +5,115 @@
 }
 
 body {
-  background-image: url(/images/3.jpg?2b56950def47eeb23e4bd1f0a54a789e);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  margin: 0 30px;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
 }
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #002d75;
 }
 
 header ul {
   display: flex;
-  justify-content: space-around;
   list-style: none;
 }
 
 header ul li {
-  padding-right: 20px;
+  margin: 20px;
 }
 
 header ul li a {
   text-decoration: none;
 }
 
-main h2 {
-  font-size: 30px;
-  color: #cbc099;
-  margin-left: 10px;
+.main-home img {
+  width: 98.5vw;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-main .container {
+.main-prodotti {
+  background-image: url("https://www.multicash.it/pub/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/1/0/1010300_1524000385_la_molisana_pasta_trafilata_al_bronzo_n20b_penne_ziti_rigate_1_kg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 380px;
+}
+
+.main-prodotti h2 {
+  font-size: 30px;
+  color: #b2282f;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.main-prodotti .cards {
+  margin: 0 50px;
+}
+
+.main-prodotti .cards .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
-main .container .card {
-  margin: 10px;
-  padding: 10px;
+.main-prodotti .cards .container .card {
+  padding: 20px 10px;
 }
 
-main .container .card img {
+.main-prodotti .cards .container .card img {
   width: 340px;
+  border-radius: 5px;
+}
+
+footer .home-top-footer {
+  background-color: #002d75;
+  color: white;
+}
+
+footer .home-top-footer p {
+  padding: 10px 0;
+  font-size: 26px;
+  text-align: center;
+}
+
+footer .home-bottom-footer {
+  background-image: url("https://www.lamolisana.it/wp-content/uploads/2020/06/footer-montagne-bottom.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+footer .home-bottom-footer .menu-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+footer .menu {
+  padding: 0 30px;
+}
+
+footer h3 {
+  color: #002d75;
+  padding-bottom: 8px;
+}
+
+footer ul {
+  padding-bottom: 100px;
+}
+
+footer ul li {
+  font-weight: 100;
+  color: gray;
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+.contatti-footer {
+  text-align: center;
+  padding: 60px 0;
 }
 

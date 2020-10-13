@@ -17,7 +17,7 @@
 @section('footer')
     <footer>
         <div class="home-top-footer">
-            <p>LA MOLISANA: PASTA E FARINE DI QUALITA'</p>
+            <p>LA MOLISANA : PASTA E FARINE DI QUALITA'</p>
         </div>
         @include('partials.footer')
     </footer>

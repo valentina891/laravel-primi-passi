@@ -13,14 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
-
-Route::get('/prodotti', function () {
-    return view('prodotti');
-})->name('prodotti');
-
-Route::get('/contatti', function () {
-    return view('contatti');
-})->name('contatti');
+Route::get('/', 'StaticPageController@home')->name('home');
+Route::get('/prodotti', 'StaticPageController@prodotti')->name('prodotti');
+Route::get('/contatti', 'StaticPageController@contatti')->name('contatti');
